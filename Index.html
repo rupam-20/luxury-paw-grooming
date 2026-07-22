@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luxury Pet Grooming Salon offering premium spa and grooming services.">
+
+    <title>Luxury Pet Grooming Salon</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+
+            <h1 class="logo">LuxuryPet</h1>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="dark-mode-toggle">🌙</button>
+                <button class="menu-toggle">☰</button>
+            </div>
+            
+
+        </div>
+    </header>
+
+    <!-- HERO -->
+  <section class="hero" id="home">
+
+    <button id="prevBtn" class="slider-btn prev">❮</button>
+
+    <div class="hero-content">
+        <h2>Luxury Grooming Crafted For Exceptional Pets</h2>
+
+        <p>
+            Premium spa, styling and wellness services
+            designed to keep your pets healthy, stylish
+            and happy.
+        </p>
+
+        <a href="#pricing" class="btn">
+            View Packages
+        </a>
+    </div>
+
+    <button id="nextBtn" class="slider-btn next">❯</button>
+
+</section>
+
+<div class="slider-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+    <!-- SERVICES -->
+    <section class="services" id="services">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Premium Services</h2>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="card">
+                    <h3>🛁 Luxury Bath & Spa</h3>
+                </div>
+
+                <div class="card">
+                    <h3>✂️ Breed Styling</h3>
+                </div>
+
+                <div class="card">
+                    <h3>💎 Coat Conditioning</h3>
+                </div>
+
+                <div class="card">
+                    <h3>🐾 Paw Care</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+
+        <div>
+            <h3>5000+</h3>
+            <p>Happy Pets</p>
+        </div>
+
+        <div>
+            <h3>10+</h3>
+            <p>Years Experience</p>
+        </div>
+
+        <div>
+            <h3>4.9★</h3>
+            <p>Customer Rating</p>
+        </div>
+
+        <div>
+            <h3>24/7</h3>
+            <p>Support</p>
+        </div>
+
+    </section>
+
+
+    <!-- PRICING -->
+    <section class="pricing-section" id="pricing">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Our Grooming Packages</h2>
+                <p>Choose the perfect package.</p>
+            </div>
+
+            <div class="pricing-grid">
+
+                <div class="card">
+                    <h3>Essential Care</h3>
+                    <div class="price">₹999</div>
+
+                    <ul>
+                        <li>Bath & Blow Dry</li>
+                        <li>Nail Trimming</li>
+                        <li>Ear Cleaning</li>
+                    </ul>
+
+                    <button class="book-btn">
+                        Book Now
+                    </button>
+                </div>
+
+                <div class="card featured">
+                    <h3>Premium Spa</h3>
+                    <div class="price">₹1999</div>
+
+                    <ul>
+                        <li>Luxury Bath</li>
+                        <li>Coat Conditioning</li>
+                        <li>Styling Session</li>
+                        <li>Paw Treatment</li>
+                    </ul>
+
+                    <button class="book-btn">
+                        Book Now
+                    </button>
+                </div>
+
+                <div class="card">
+                    <h3>Royal Signature</h3>
+                    <div class="price">₹2999</div>
+
+                    <ul>
+                        <li>Full Spa</li>
+                        <li>Hair Styling</li>
+                        <li>Massage Therapy</li>
+                        <li>Premium Care Kit</li>
+                    </ul>
+
+                    <button class="book-btn">
+                        Book Now
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Happy Pet Parents</h2>
+            </div>
+
+            <div class="testimonial-grid">
+
+                <div class="testimonial">
+                    <h4>★★★★★</h4>
+                    <p>
+                        Amazing grooming experience.
+                        My pet looks fantastic every visit.
+                    </p>
+                </div>
+
+                <div class="testimonial">
+                    <h4>★★★★★</h4>
+                    <p>
+                        Professional staff and premium care.
+                        Highly recommended.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BOOKING -->
+    <section class="booking-section" id="booking">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Book Appointment</h2>
+            </div>
+
+            <form id="bookingForm">
+
+                <div class="form-group">
+                    <label for="petName">Pet Name</label>
+                    <input type="text" id="petName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ownerName">Owner Name</label>
+                    <input type="text" id="ownerName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service</label>
+
+                    <select id="service" required>
+                        <option value="">Select Service</option>
+                        <option>Essential Care</option>
+                        <option>Premium Spa</option>
+                        <option>Royal Signature</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Submit Booking
+                </button>
+
+            </form>
+
+            <div id="loader" class="loader">
+                Processing Booking...
+            </div>
+
+            <div id="successMessage" class="success-message">
+                Booking submitted successfully! ✓
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+
+        <div class="container">
+
+            <h2>LuxuryPet</h2>
+
+            <p>
+                Premium Pet Grooming & Wellness Services
+            </p>
+
+            <p>
+                © 2026 Luxury Pet Grooming Salon.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
