@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Luxury Pet Grooming Salon offering premium spa and grooming services.">
+
+
 
     <title>Luxury Pet Grooming Salon</title>
 
@@ -15,7 +20,10 @@
     <header class="header">
         <div class="container">
 
-            <h1 class="logo">LuxuryPet</h1>
+           <h2 class="logo">
+    <i class="fa-solid fa-paw"></i>
+    Luxury<span>Pet</span>
+</h2>
 
             <nav class="navbar">
                 <ul>
@@ -137,8 +145,15 @@
             <div class="pricing-grid">
 
                 <div class="card">
+                    <div class="package-icon">
+                    <i class="fa-solid fa-bath"></i>
+                </div>
+
                     <h3>Essential Care</h3>
+   
                     <div class="price">₹999</div>
+                    
+
 
                     <ul>
                         <li>Bath & Blow Dry</li>
@@ -152,6 +167,9 @@
                 </div>
 
                 <div class="card featured">
+                    <div class="package-icon">
+                    <i class="fa-solid fa-spa"></i>
+                    </div>
                     <h3>Premium Spa</h3>
                     <div class="price">₹1999</div>
 
@@ -168,6 +186,9 @@
                 </div>
 
                 <div class="card">
+                    <div class="package-icon">
+                    <i class="fa-solid fa-crown"></i>
+                    </div>
                     <h3>Royal Signature</h3>
                     <div class="price">₹2999</div>
 
@@ -272,54 +293,60 @@
 
     </section>
 
-    <!-- FOOTER -->
-         </section>
 
-    <!-- CONTACT -->
-    <section class="contact-section" id="contact">
+   <section id="contact" class="contact-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>We're here to help you and your pets.</p>
+        </div>
 
-        <div class="container">
+        <div class="contact-grid">
 
-            <div class="section-title">
-                <h2>Contact Us</h2>
+            <div class="contact-card">
+                <h3>📧 Email</h3>
+                <p>support@luxurypet.com</p>
             </div>
 
-            <div class="contact-content">
-                <p>📍 Luxury Pet Grooming Salon, Patna, Bihar</p>
-                <p>📞 +91 98765 43210</p>
-                <p>✉️ support@luxurypet.com</p>
-                <p>🕒 Mon - Sun: 9:00 AM - 8:00 PM</p>
+            <div class="contact-card">
+                <h3>📞 Phone</h3>
+                <p>+91 98765 43210</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📍 Location</h3>
+                <p>Patna, Bihar, India</p>
             </div>
 
         </div>
+    </div>
+</section>
+   
 
-    </section>
-
+  
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
+    <div class="container">
 
-        <div class="container">
+       <h2 class="logo">
+    <i class="fa-solid fa-paw"></i>
+    Luxury<span>Pet</span>
+</h2>
 
-            <h2>LuxuryPet</h2>
+        <p>Premium Pet Grooming & Wellness Services</p>
 
-            <p>Premium Pet Grooming & Wellness Services</p>
-
-            <div class="footer-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#contact">Contact Us</a>
-            </div>
-
-            <p>
-                © 2026 Luxury Pet Grooming Salon.
-                All Rights Reserved.
-            </p>
-
+        <div class="footer-links">
+            <a href="#">🔒 Privacy Policy</a>
+            <a href="#">📜 Terms & Conditions</a>
+            <a href="#contact">📞 Contact Us</a>
         </div>
 
-    </footer>
+        <p class="copyright">
+            © 2026 Luxury Pet Grooming Salon. All Rights Reserved.
+        </p>
 
-    <script src="script.js"></script>
-
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

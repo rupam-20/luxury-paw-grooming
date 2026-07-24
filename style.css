@@ -433,4 +433,125 @@ body.dark-mode .testimonial h4{
 .slider-btn:hover{
     background:rgba(255,255,255,.4);
 }
+.contact-section{
+    padding:80px 20px;
+    text-align:center;
+}
 
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.contact-card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-5px);
+}
+.card{
+    border:2px solid #d4af37;
+}
+.footer{
+    background:#000;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.footer h2{
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+.footer p{
+    margin:10px 0;
+}
+
+.footer-links{
+    margin:20px 0;
+}
+
+.footer-links a{
+    color:#d4af37;
+    text-decoration:none;
+    margin:0 12px;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+    color:#fff;
+}
+
+.copyright{
+    margin-top:20px;
+    font-size:14px;
+    opacity:0.8;
+}
+.contact-card{
+    border:2px solid #d4af37;
+    border-radius:20px;
+}
+.booking-section form{
+    max-width:600px;
+    margin:0 auto;
+    padding:30px;
+    background:#fff;
+    border:2px solid #d4af37; /* Golden Border */
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+.booking-section form:hover{
+    transform:translateY(-5px);
+    transition:0.3s ease;
+}
+.logo,
+.section-title h2{
+    font-family: 'Cormorant Garamond', serif;
+}
+.logo{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.logo span{
+    color: #d4af37;
+}
+.package-icon{
+    width:70px;
+    height:70px;
+    border:2px solid #d4af37;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    color:#d4af37;
+    margin-bottom:20px;
+}
+.pricing-grid li i{
+    color:#d4af37;
+    margin-right:10px;
+}
+.paw-divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#d4af37;
+    margin:20px 0;
+}
+
+.paw-divider span{
+    width:80px;
+    height:1px;
+    background:#d4af37;
+    margin:0 10px;
+}

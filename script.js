@@ -200,12 +200,12 @@ if (prevBtn) {
     });
 }
 
-// Auto Change Every 5 Seconds
+//Auto Change Every 5 Seconds
 
-//setInterval(() => {
+setInterval(() => {
 
-    //current = (current + 1) % images.length;
+    current = (current + 1) % images.length;
 
-    //changeHeroImage();
+    changeHeroImage();
 
-//}, 5000);
+}, 5000);
