@@ -1,5 +1,7 @@
 // ===== Elements =====
 
+
+const emptyState = document.getElementById("emptyState");
 const bookingForm = document.getElementById("bookingForm");
 const loader = document.getElementById("loader");
 const successMessage = document.getElementById("successMessage");
@@ -12,7 +14,9 @@ const menuToggle = document.querySelector(".menu-toggle");
 const navbar = document.querySelector(".navbar");
 
 const darkModeBtn = document.querySelector(".dark-mode-toggle");
-
+if (successMessage) {
+    successMessage.style.display = "none";
+}
 // ===== Sanitize Input =====
 
 function sanitizeInput(input) {
@@ -160,6 +164,10 @@ const images = [
     "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=80",
     "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=1200&q=80"
 ];
+images.forEach(src => {
+    const img = new Image();
+    img.src = src;
+});
 
 let current = 0;
 
@@ -202,10 +210,9 @@ if (prevBtn) {
 
 //Auto Change Every 5 Seconds
 
-setInterval(() => {
-
-    current = (current + 1) % images.length;
-
-    changeHeroImage();
-
-}, 5000);
+if (hero) {
+    setInterval(() => {
+        current = (current + 1) % images.length;
+        changeHeroImage();
+    }, 5000);
+}

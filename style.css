@@ -8,8 +8,6 @@
     --shadow:0 10px 30px rgba(0,0,0,.08);
     --radius:20px;
 }
-
-
 /* RESET */
 
 *{
@@ -17,8 +15,6 @@
     padding:0;
     box-sizing:border-box;
 }
-
-
 html{
     scroll-behavior:smooth;
 }
@@ -44,13 +40,7 @@ img{
     margin:auto;
 }
 
-
-
-
-
 /* ================= HEADER ================= */
-
-
 .header{
     background:#fff;
     border-bottom:1px solid var(--border);
@@ -58,8 +48,6 @@ img{
     top:0;
     z-index:1000;
 }
-
-
 .header .container{
     display:flex;
     justify-content:space-between;
@@ -114,15 +102,7 @@ img{
 .menu-toggle{
     display:none;
 }
-
-
-
-
-
-
 /* ================= HERO ================= */
-
-
 .hero{
 
     min-height:700px;
@@ -148,11 +128,6 @@ img{
     background-position:center;
 
 }
-
-
-
-
-
 .hero-content{
 
     max-width:800px;
@@ -162,10 +137,6 @@ img{
     padding:20px;
 
 }
-
-
-
-
 .hero-content h1{
 
     font-family:'Cormorant Garamond',serif;
@@ -175,11 +146,6 @@ img{
     margin-bottom:20px;
 
 }
-
-
-
-
-
 .hero-content p{
 
     font-size:1.1rem;
@@ -187,11 +153,6 @@ img{
     margin-bottom:30px;
 
 }
-
-
-
-
-
 .btn{
 
     display:inline-block;
@@ -209,11 +170,6 @@ img{
     font-weight:700;
 
 }
-
-
-
-
-
 /* SLIDER BUTTON */
 
 
@@ -242,25 +198,16 @@ img{
     cursor:pointer;
 
 }
-
-
-
 .prev{
 
     left:20px;
 
 }
-
-
-
 .next{
 
     right:20px;
 
 }
-
-
-
 .slider-dots{
 
     text-align:center;
@@ -285,23 +232,12 @@ img{
     margin:5px;
 
 }
-
-
-
 .dot.active{
 
     background:var(--gold);
 
 }
-
-
-
-
-
-
-
 /* ================= SECTION TITLE ================= */
-
 
 .section-title{
 
@@ -324,17 +260,11 @@ img{
 
 .section-title p{
 
-    color:#444;
+    color:#222;
 
     font-weight:500;
 
 }
-
-
-
-
-
-
 
 /* ================= SERVICES ================= */
 
@@ -344,9 +274,6 @@ img{
     padding:100px 0;
 
 }
-
-
-
 .services-grid{
 
     display:grid;
@@ -356,8 +283,6 @@ img{
     gap:25px;
 
 }
-
-
 
 .card{
 
@@ -376,30 +301,16 @@ img{
     transition:.3s;
 
 }
-
-
-
 .card:hover{
 
     transform:translateY(-8px);
 
 }
-
-
-
-
-
 .card h3{
 
     color:#111;
 
 }
-
-
-
-
-
-
 
 /* ================= STATS ================= */
 
@@ -419,9 +330,6 @@ img{
     text-align:center;
 
 }
-
-
-
 .stats h3{
 
     color:var(--gold);
@@ -429,11 +337,6 @@ img{
     font-size:2.5rem;
 
 }
-
-
-
-
-
 /* ================= PRICING ================= */
 
 
@@ -482,16 +385,11 @@ img{
     margin:0 auto 20px;
 
 }
-
-
-
 .featured{
 
     transform:scale(1.03);
 
 }
-
-
 
 .price{
 
@@ -502,9 +400,6 @@ img{
     margin:20px 0;
 
 }
-
-
-
 .card ul{
 
     list-style:none;
@@ -512,9 +407,6 @@ img{
     margin-bottom:25px;
 
 }
-
-
-
 .card li{
 
     padding:10px 0;
@@ -524,9 +416,6 @@ img{
     color:#333;
 
 }
-
-
-
 .book-btn,
 .submit-btn{
 
@@ -565,9 +454,6 @@ img{
     gap:30px;
 
 }
-
-
-
 .testimonial{
 
     background:#fff;
@@ -585,16 +471,11 @@ img{
     transition:.3s;
 
 }
-
-
-
 .testimonial:hover{
 
     transform:translateY(-8px);
 
 }
-
-
 
 .rating{
 
@@ -606,12 +487,6 @@ img{
 
 }
 
-
-
-
-
-
-
 /* ================= BOOKING ================= */
 
 
@@ -622,8 +497,6 @@ img{
     background:var(--light);
 
 }
-
-
 
 #bookingForm{
 
@@ -644,9 +517,6 @@ img{
     box-shadow:var(--shadow);
 
 }
-
-
-
 .form-group{
 
     margin-bottom:20px;
@@ -665,8 +535,6 @@ img{
 
 }
 
-
-
 .form-group input,
 .form-group select{
 
@@ -682,8 +550,6 @@ img{
 
 }
 
-
-
 .loader,
 .success-message{
 
@@ -696,13 +562,6 @@ img{
     font-weight:600;
 
 }
-
-
-
-
-
-
-
 /* ================= CONTACT ================= */
 
 
@@ -711,8 +570,6 @@ img{
     padding:100px 0;
 
 }
-
-
 
 .contact-grid{
 
@@ -723,9 +580,6 @@ img{
     gap:25px;
 
 }
-
-
-
 .contact-card{
 
     background:#fff;
@@ -744,20 +598,11 @@ img{
 
 }
 
-
-
 .contact-card:hover{
 
     transform:translateY(-8px);
 
 }
-
-
-
-
-
-
-
 /* ================= FOOTER ================= */
 
 
@@ -773,8 +618,6 @@ img{
 
 }
 
-
-
 .footer-links{
 
     margin:20px 0;
@@ -785,7 +628,7 @@ img{
 
 .footer-links a{
 
-    color:#f5d76e;
+    color:#ffd700;
 
     text-decoration:none;
 
@@ -795,15 +638,11 @@ img{
 
 }
 
-
-
 .footer-links a:hover{
 
     color:#fff;
 
 }
-
-
 
 .copyright{
 
@@ -812,13 +651,6 @@ img{
     color:#ddd;
 
 }
-
-
-
-
-
-
-
 /* ================= DARK MODE ================= */
 
 
@@ -829,8 +661,6 @@ body.dark-mode{
     color:#fff;
 
 }
-
-
 
 body.dark-mode .header,
 
@@ -892,12 +722,6 @@ body.dark-mode select{
 
 }
 
-
-
-
-
-
-
 /* ================= MOBILE ================= */
 
 
@@ -929,8 +753,6 @@ body.dark-mode select{
         font-size:2.3rem;
 
     }
-
-
 
     .section-title h2{
 
@@ -1006,13 +828,7 @@ body.dark-mode select{
 
 
 }
-
-
-
-
-
 /* ================= LIGHTHOUSE FIXES ================= */
-
 
 /* Better focus accessibility */
 
@@ -1027,8 +843,6 @@ select:focus{
 
 }
 
-
-
 /* Prevent layout shift */
 
 .hero,
@@ -1037,3 +851,7 @@ select:focus{
     contain:layout;
 
 }
+
+
+
+

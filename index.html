@@ -27,7 +27,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
 
-
 <link rel="stylesheet" href="style.css">
 
 </head>
@@ -49,8 +48,6 @@ Luxury<span>Pet</span>
 
 </div>
 
-
-
 <nav class="navbar">
 
 <ul>
@@ -68,8 +65,6 @@ Luxury<span>Pet</span>
 </ul>
 
 </nav>
-
-
 
 <div class="header-actions">
 
@@ -98,11 +93,7 @@ aria-label="Open menu">
 </header>
 
 
-
-
-
 <main>
-
 
 <!-- HERO SECTION -->
 
@@ -154,9 +145,6 @@ aria-label="Next slide">
 
 </section>
 
-
-
-
 <div class="slider-dots">
 
 <span class="dot active"></span>
@@ -168,10 +156,6 @@ aria-label="Next slide">
 <span class="dot"></span>
 
 </div>
-
-
-
-
 
 <!-- SERVICES -->
 
@@ -188,8 +172,6 @@ Premium Services 💎
 
 </div>
 
-
-
 <div class="services-grid">
 
 
@@ -200,8 +182,6 @@ Premium Services 💎
 </h3>
 
 </div>
-
-
 
 <div class="card">
 
@@ -239,12 +219,6 @@ Premium Services 💎
 </div>
 
 </section>
-
-
-
-
-
-
 
 <!-- STATS -->
 
@@ -293,12 +267,6 @@ Premium Services 💎
 
 </section>
 
-
-
-
-
-
-
 <!-- PRICING -->
 
 
@@ -323,12 +291,7 @@ Choose the perfect package.
 
 </div>
 
-
-
-
 <div class="pricing-grid">
-
-
 
 <div class="card">
 
@@ -363,17 +326,12 @@ Essential Care
 
 </ul>
 
-
-
 <button class="book-btn">
 Book Now
 </button>
 
 
 </div>
-
-
-
 
 
 <div class="card featured">
@@ -411,17 +369,12 @@ Premium Spa
 
 </ul>
 
-
-
 <button class="book-btn">
 Book Now
 </button>
 
 
 </div>
-
-
-
 
 
 <div class="card">
@@ -433,19 +386,13 @@ Book Now
 
 </div>
 
-
-
 <h3>
 Royal Signature
 </h3>
 
-
-
 <div class="price">
 ₹2999
 </div>
-
-
 
 <ul>
 
@@ -459,8 +406,6 @@ Royal Signature
 
 </ul>
 
-
-
 <button class="book-btn">
 Book Now
 </button>
@@ -468,13 +413,9 @@ Book Now
 
 </div>
 
-
-
 </div>
 
-
 </div>
-
 
 </section>
 <!-- ================= TESTIMONIALS ================= -->
@@ -491,8 +432,6 @@ Happy Pet Parents 🐾
 </h2>
 
 </div>
-
-
 
 <div class="testimonial-grid">
 
@@ -513,8 +452,6 @@ My pet looks fantastic every visit.
 </div>
 
 
-
-
 <div class="testimonial">
 
 <div class="rating" aria-label="5 star rating">
@@ -530,21 +467,11 @@ Highly recommended for every pet owner.
 
 </div>
 
-
-
 </div>
-
 
 </div>
 
 </section>
-
-
-
-
-
-
-
 
 <!-- ================= BOOKING ================= -->
 
@@ -563,9 +490,6 @@ Book Appointment 📝
 
 </div>
 
-
-
-
 <form id="bookingForm">
 
 
@@ -578,12 +502,10 @@ Pet Name
 <input 
 type="text"
 id="petName"
-required>
+required
+aria-label="Pet Name">
 
 </div>
-
-
-
 
 <div class="form-group">
 
@@ -591,16 +513,13 @@ required>
 Owner Name
 </label>
 
-
 <input 
 type="text"
 id="ownerName"
-required>
+required
+aria-label="Owner Name">
 
 </div>
-
-
-
 
 <div class="form-group">
 
@@ -610,8 +529,10 @@ Service
 </label>
 
 
-<select id="service" required>
-
+<select
+id="service"
+required
+aria-label="Select Grooming Service">
 
 <option value="">
 Select Service
@@ -632,13 +553,9 @@ Premium Spa
 Royal Signature
 </option>
 
-
 </select>
 
-
 </div>
-
-
 
 
 <button type="submit" class="submit-btn">
@@ -647,42 +564,35 @@ Submit Booking
 
 </button>
 
-
-
 </form>
 
 
 
-
-<div id="loader" class="loader">
-
+<div id="loader" class="loader" style="display:none;">
 Processing Booking...
 
 </div>
 
 
 
-
-<div id="successMessage" class="success-message">
-
-Booking submitted successfully! ✓
-
+<div
+    id="emptyState"
+    class="empty-state"
+    style="display:none;">
+    No data found
 </div>
 
-
-
+<div
+    id="successMessage"
+    class="success-message"
+    role="alert"
+    aria-live="assertive"
+    style="display:none;">
+    Booking submitted successfully! ✓
 </div>
 
-
+</div>
 </section>
-
-
-
-
-
-
-
-
 
 <!-- ================= CONTACT ================= -->
 
@@ -708,10 +618,6 @@ We're here to help you and your pets.
 
 </div>
 
-
-
-
-
 <div class="contact-grid">
 
 
@@ -730,17 +636,11 @@ support@luxurypet.com
 
 </div>
 
-
-
-
-
 <div class="contact-card">
-
 
 <h3>
 📞 Phone
 </h3>
-
 
 <p>
 +91 98765 43210
@@ -749,12 +649,7 @@ support@luxurypet.com
 
 </div>
 
-
-
-
-
 <div class="contact-card">
-
 
 <h3>
 📍 Location
@@ -768,33 +663,13 @@ Patna, Bihar, India
 
 </div>
 
-
-
-
 </div>
 
-
-
 </div>
-
 
 </section>
 
-
-
-
-
-
-
-
-
 </main>
-
-
-
-
-
-
 
 <!-- ================= FOOTER ================= -->
 
@@ -815,15 +690,9 @@ Luxury<span>Pet</span>
 
 </div>
 
-
-
-
 <p>
 Premium Pet Grooming & Wellness Services
 </p>
-
-
-
 
 <div class="footer-links">
 
@@ -832,24 +701,15 @@ Premium Pet Grooming & Wellness Services
 🔒 Privacy Policy
 </a>
 
-
-
 <a href="#">
 📜 Terms & Conditions
 </a>
-
-
 
 <a href="#contact">
 📞 Contact Us
 </a>
 
-
-
 </div>
-
-
-
 
 <p class="copyright">
 
@@ -857,19 +717,11 @@ Premium Pet Grooming & Wellness Services
 
 </p>
 
-
-
 </div>
-
 
 </footer>
 
-
-
-
-
 <script src="script.js" defer></script>
-
 
 </body>
 
